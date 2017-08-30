@@ -1,9 +1,47 @@
-1. Create a markdown page that shows the differences in atleast 3 different js libraries
-1.1. Display Logos and description in your own words
-1.2. Show Code examples
-1.3. Best Use Cases - when is it best used
-1.4. "Personal" Ratings for each  
-2. Discuss the differences between a library and a framework
-3. MOST IMPORTANT = store all the code samples in a single github repository - use a README.md file (use http://dillinger.io/ for ease)
+# Javascript
+
+- __[Framework](url)__ - an application skeleton. It requires you to approach software design in a specific way and insert your own logic at certain points.
+- __[Library](url)__ - a javascript file that contains a bunch of functions which accomplish a task in a webpage.
+![framework vs library](https://www.programcreek.com/wp-content/uploads/2011/09/framework-vs-library.png)
+ 
+ 
+|  Library       | Logo          | Description              |                                          
+| -------------  |:-------------:| ------------------------:|  
+| React          |               | Building user interfaces | 
+### Code
+
+//class HelloMessage extends React.Component {
+  render() {
+    return <div>Hello {this.props.name}</div>;
+  }
+}
+
+//ReactDOM.render(
+  <HelloMessage name="John" />,
+  document.getElementById('container')
+);
+
+| Library| Logo        | Description                                                       |
+| ------ |:-----------:| -----------------------------------------------------------------:|  
+| jquery |             | revolutionized client-side development by introducing CSS selector|
+### Code 
+[More Samples](https://www.taniarascia.com/simple-jquery-examples-with-code-and-demos/)
+
+// Clicking on the accordion header title...
+	$(".accordion").on("click", ".accordion-header", function() {
+	
+	// will (slide) toggle the related panel.
+ 	$(this).toggleClass("active").next().slideToggle();
+ });
+
+
+
+|  Library            |   Logo      |    Description                                                    |
+| ------------------- |:-----------:| -----------------------------------------------------------------:|  
+| Lodash & Underscore | are neat    |  provide hundreds of functional JavaScript utilities              |
+### Code
+[More Samples](http://underscorejs.org/)
+
+// _.each(list, iteratee, [context])
 
 
