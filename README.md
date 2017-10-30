@@ -18,7 +18,7 @@
 | ------------------  | :---------------------------------------------------------:|
 | Website             |  http://www.fusioncharts.com/   		  	   |
 | Repository          |  https://github.com/fusioncharts     		           |
-| current version     |  3.12.1					   		   | 
+| current version     |  3.12.1					   		   |
 
 </center>
 
@@ -61,32 +61,32 @@ FusionCharts.ready(function () {
                 "toolTipBorderRadius": "2",
                 "toolTipPadding": "5"
             },
-            
+
             "data": [
                 {
                     "label": "Mon",
                     "value": "4123"
-                }, 
+                },
                 {
                     "label": "Tue",
                     "value": "4633"
-                }, 
+                },
                 {
                     "label": "Wed",
                     "value": "5507"
-                }, 
+                },
                 {
                     "label": "Thu",
                     "value": "4910"
-                }, 
+                },
                 {
                     "label": "Fri",
                     "value": "5529"
-                }, 
+                },
                 {
                     "label": "Sat",
                     "value": "5803"
-                }, 
+                },
                 {
                     "label": "Sun",
                     "value": "6202"
@@ -112,7 +112,7 @@ FusionCharts.ready(function () {
 
 ### Installation
 ```
-$ bower install bounce.js 
+$ bower install bounce.js
 # OR
 $ npm install bounce.js
 ```
@@ -126,7 +126,7 @@ bounce.scale({
   to: { x: 1, y: 1 }
 });
 
-``` 
+```
 <p align="center">
   <img width="460" height="300" src="https://avatars2.githubusercontent.com/u/8068250?v=4&s=200">
 </p>
@@ -167,5 +167,3 @@ https://www.sitepoint.com/3-javascript-libraries-2017/
 https://www.youtube.com/watch?v=_vL8s5ayuFk
 
 https://www.webdesignerdepot.com/2016/11/12-javascript-libraries-to-watch-in-2017/
-
-https://developer.telerik.com/topics/web-development/javascript-2017-libraries-frameworks/
